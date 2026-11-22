@@ -1,5 +1,5 @@
 // mend — one CLI for the four edit formats AI models write. SPEC.md is the contract.
-// Node 22, standard library only. A trial hands over to runner.ts at the bottom.
+// Node 22 and its standard library only. A trial hands over to runner.ts at the bottom.
 
 import { mkdirSync, readFileSync, rmSync, statSync, writeFileSync, writeSync } from 'node:fs';
 import { dirname } from 'node:path';
